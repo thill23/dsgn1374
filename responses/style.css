@@ -1,0 +1,126 @@
+/* Responses */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #27bbcd;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 85px;
+	padding: 0;
+	border: 20px solid #fff8a3fa;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Typography */
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 42px;
+	font-weight: normal;
+	margin: 20px 0 20px 0;
+	transition: all 0.7s ease;
+	transform: scale(1);
+}
+
+h1:hover {
+	color: #fff8a3fa;
+	transform: scale(1.5);
+	filter: blur(0px);
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 1em 0;
+}
+
+p {
+	color: white;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 22px;
+	margin: 0 50px 0 50px;
+}
+
+.container {
+	background: #51d2e2;
+	border: 3px solid #fff8a3fa;
+	text-align: center;
+	padding: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY (-50%);
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-size: 22px;
+	padding: 0 20px;
+}
+
+.cool-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: white;
+	transition: width .5s;
+}
+
+.cool-link:hover::after {
+	width: 100%;
+	transition: width .5s;
+}
+
+img {
+	max-width: 100%
+}
+
+.center {
+	width: 50%;
+	padding: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.size {
+	width: 50%;
+	padding: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.size2 {
+	padding: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
